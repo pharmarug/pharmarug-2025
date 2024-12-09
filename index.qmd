@@ -1,8 +1,23 @@
 ---
-title: "First China Pharma R user group meeting"
+title: "China Pharma R user group meeting 2025"
 ---
 
+3rd China Pharmaceutical Industry R User Group Meeting will be held on March 28, 2025, both on-site and online. On-site meeting locations: Shanghai (Novartis campus), Beijing (Sanofi campus).
 
-<img src="resources/grouped.png" width="100%">
 
-Conference organising committee: Chengen Tian (Novartis), Yanli Chang (Novartis), Qiao Yan (Beigene) and Joe Zhu (Roche)
+
+第二届中国医药行业R用户大会将于2024年3月29日召开。线上线下同步进行。线下会议地点：上海（诺华园区），北京（赛诺菲园区）。
+
+
+| Key dates                 |                                    |
+| ------------------------- | ---------------------------------- |
+| 13-Dec-2024               | Call for Papers Opens              |
+| 31-Jan-2025               | Call for Papers Closes             |
+| 1-Feb-2025 to  7-Feb-2025 | Acceptance Notices Sent to Authors |
+| 3-Feb-2025                | Conference Registration Opens      |
+| 7-Mar-2025               | Conference Registration Closes     |
+| 21-Mar-2025               | Final Papers/Slides Due            |
+| 28-Mar-2025               | China Pharma R User Group meeting  |
+
+
+Conference organising committee: Baoqing Li (Johnson & Johnson), Fan Zhang (Sanofi) and Joe Zhu (Roche)

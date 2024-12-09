@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.547">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>First China Pharma R user group meeting</title>
+<title>China Pharma R user group meeting 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,11 +79,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">First China Pharma R user group meeting</span>
+    <span class="navbar-title">China Pharma R user group meeting 2025</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -99,13 +99,18 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Program</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./questions.html"> <i class="bi bi-question-circleg" role="img">
+</i> 
+<span class="menu-text">Q &amp; A</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./highlights.html"> <i class="bi bi-camera" role="img">
 </i> 
 <span class="menu-text">Event highlights</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -120,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">First China Pharma R user group meeting</h1>
+<h1 class="title">China Pharma R user group meeting 2025</h1>
 </div>
 
 
@@ -137,7 +142,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="resources/grouped.png" width="100%"></p>
+<p>3rd China Pharmaceutical Industry R User Group Meeting will be held on March 28, 2025, both on-site and online. On-site meeting locations: Shanghai (Novartis campus), Beijing (Sanofi campus).</p>
+<p>第二届中国医药行业R用户大会将于2024年3月29日召开。线上线下同步进行。线下会议地点：上海（诺华园区），北京（赛诺菲园区）。</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Key dates</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>13-Dec-2024</td>
+<td>Call for Papers Opens</td>
+</tr>
+<tr class="even">
+<td>31-Jan-2025</td>
+<td>Call for Papers Closes</td>
+</tr>
+<tr class="odd">
+<td>1-Feb-2025 to 7-Feb-2025</td>
+<td>Acceptance Notices Sent to Authors</td>
+</tr>
+<tr class="even">
+<td>3-Feb-2025</td>
+<td>Conference Registration Opens</td>
+</tr>
+<tr class="odd">
+<td>7-Mar-2025</td>
+<td>Conference Registration Closes</td>
+</tr>
+<tr class="even">
+<td>21-Mar-2025</td>
+<td>Final Papers/Slides Due</td>
+</tr>
+<tr class="odd">
+<td>28-Mar-2025</td>
+<td>China Pharma R User Group meeting</td>
+</tr>
+</tbody>
+</table>
+<p>Conference organising committee: Baoqing Li (Johnson &amp; Johnson), Fan Zhang (Sanofi) and Joe Zhu (Roche)</p>
 
 
 
@@ -177,18 +222,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -220,7 +254,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/github\.com\/pharmarug\/pharmarug-2025");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -255,7 +329,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -538,13 +616,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://github.com/insightsengineering">
-<p>NEST</p>
+    <a class="nav-link" href="https://pharmarug.github.io/pharmarug-2023/">
+<p>PharmaRUG 2023</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://openpharma.github.io/workshop-r-swe/">
-<p>Good software engineering practice for R packages</p>
+    <a class="nav-link" href="https://insightsengineering.github.io/nest-2023-summeR/">
+<p>Open Source Clinical Reporting summeR</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://pharmarug.github.io/pharmarug-2024/">
+<p>PharmaRUG 2024</p>
 </a>
   </li>  
 </ul>
