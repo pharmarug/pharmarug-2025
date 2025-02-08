@@ -2,4 +2,128 @@
 title: "China Pharma RUG meeting program"
 ---
  
-Coming soon
+## ComparePrism: A package to perform comprehensive data comparison and reporting	
+
+叶波	Sanofi
+
+The ComparePrism package is a comprehensive toolkit designed for comparing data sets, performing batch data comparisons, and summarizing comparison reports. The package offers three primary functions and a built-in Shiny App:
+
+1. **Dataset Comparison:** The `compare_prism()` function, inspired by SAS Proc Compare procedure, performs a detailed comparison between two data sets, optionally using parallel processing, and generates comprehensive reports in various formats (including HTML, Word, RTF, and Markdown) with support for multiple backends. The generated report highlights differences and similarities between datasets, making it easier to validate and review comparison results.
+
+2. **Batch Comparison:** The `compare_prism_batch()` function performs batch data comparisons of multiple pairs of data sets, optionally generating comprehensive individual or combined summary reports in various formats with support for multiple backends. It supports batch comparison of data in folders or pre-loaded, with customizable filters.
+
+3. **Summary Report:** The `compare_prism_summarize()` function aggregates and summarizes multiple comparison reports, providing a comprehensive overview of comparison results. It supports reading various file formats to extract information and generates an Excel report.
+
+4. **Built-in Shiny App:** Run `run_app()` to start the Shiny App for an interactive data comparison experience.
+
+
+## Vue and webR Integration for Serverless Local Statistical Analysis in a Single HTML File	
+
+Kaiping Yang	BeiGene	
+
+Abstract: This study introduces a pure HTML file constructed using Vue and webR technologies, which enables statistical analysis applications to run locally on users’ environments without the need for an R server. By integrating Vue’s frontend framework with the R language runtime environment provided by webR, we have developed a lightweight solution where users can launch a fully functional local statistical application simply by opening an HTML file. This approach leverages the advantages of modern web technologies, including client-side JavaScript and Vue’s reactive design, to achieve a seamless user interaction and data visualization experience. The research demonstrates how the powerful statistical analysis capabilities of the R language can be combined with Vue’s dynamic user interface, providing statisticians and data scientists with a convenient and efficient working platform. Moreover, this solution significantly reduces the deployment and maintenance costs of statistical analysis software, expanding its application across different environments and user groups.
+Keywords: Vue, webR, HTML file, local statistical analysis, serverless deployment
+
+
+## Developing Context-Aware AI Coding Assistants for Clinical Data Analysis in R	
+
+Steven Brooks  
+Boehringer Ingelheim/Medicine (BDS)	Clinical Data Scientist	
+
+In highly regulated environments where clinical data confidentiality is paramount, traditional AI coding assistants like ChatGPT present two significant challenges: they require data exposure to external systems, and they lack context-specific knowledge of organizational data structures and standards. We present an innovative solution that bridges this gap: a secure, context-aware application that combines large language models (LLMs) with clinical data standards to assist R users in analyzing confidential healthcare data.
+Our application, built using PandasAI and Apollo (an internal qualified LLM service) on Microsoft Azure infrastructure, has been trained on our organization's clinical data standards and conventions. This enables it to generate and execute R code that is precisely tailored to our data structures, variable definitions, and analytical requirements. The system can perform various tasks including exploratory data analysis, data quality checks, and the automated generation of tables, figures, and listings.
+
+We will demonstrate how this tool serves dual purposes: accelerating the work of experienced R programmers while simultaneously functioning as an educational platform for R learners working with clinical data. Unlike generic AI coding assistants, our solution provides contextually relevant code suggestions that align with organizational standards and practices, all while maintaining data privacy and regulatory compliance.
+This presentation will showcase real-world applications, discuss the technical architecture, and explore how similar systems could be implemented in other organizations working with sensitive data. We'll also address the broader implications for R education and development in regulated industries.
+
+## How can we ensure that health authorities reproduce the sponor's R based submission results?	/ Insights from the First Hybrid R/SAS Submission to NMPA by Johnson & Johnson Innovative Medicine
+
+He Liu, Renfa He	J&J	
+	
+## A New Era for R Programming: How AI is Changing the Way We Work	
+
+宋嘉麒	Johnson & Johnson	
+
+The rapid development of Artificial Intelligence (AI) is transforming R programming by lowering barriers and improving efficiency. With AI, beginners can quickly get started, while experienced users and experts see significant enhancements in their capabilities, redefining the skill hierarchy in R programming. R demonstrates great flexibility and potential with AI support, particularly in the pharmaceutical industry's data analysis and visualization workflows. R's openness and seamless integration with AI make it a highly efficient and extensible programming language for data analysis.
+
+This presentation will explore how AI enhances R programming in several key areas. In the creation of TLGs (Tables, Listings, and Graphs), AI simplifies complex tasks, such as generating high-quality visualizations with ggplot2 or creating sophisticated tables and summaries with rtables and tern. In the development of R Shiny applications, AI introduces innovative approaches, including step-by-step construction based on textual descriptions, application generation from sketches, and replicating designs extracted from existing websites. Additionally, AI supports R learning and training by generating customized R Markdown documents, enabling users to quickly acquire R programming skills and enjoy a personalized learning experience.
+
+This talk will demonstrate how the deep integration of AI and R programming enables us to increase productivity, offering new possibilities for data analysis, visualization, and application development in the pharmaceutical industry.
+
+
+## Leveraging R and AI: Advancing ADaM Automation for Clinical Data Analysis
+
+高爽	百济神州
+
+Abstract: This presentation explores the integration of R programming and AI technologies to streamline and automate the creation of ADaM (Analysis Data Model) datasets in clinical trials. We will discuss how R's robust data manipulation capabilities, combined with AI techniques like machine learning and natural language processing (NLP), can intelligently interpret SAPs (Statistical Analysis Plans) and CRFs (Case Report Forms) to automate ADaM dataset generation. Additionally, we will showcase the design of an end-to-end automated workflow and address key challenges encountered during implementation. This session aims to highlight the potential of R and AI in transforming ADaM automation and its broader implications for clinical data management.
+
+## R package to calculate toxicity grade
+
+李聃	默克
+
+This article introduces an R package to calculate toxicity grade. An Excel rule file is first converted into data frame and imported during runtime.
+
+Functions to calculate toxicity grade is generated on the fly based on rules defined. The function to do toxicity calculation is exposed to user via NAMESPACE file of the package.
+
+
+## Automated Generation of Excel Spreadsheets: Integrating R and VBA for Enhanced Efficiency	
+
+马俊东	迪哲医药
+
+## A Two-Step Framework for Validating Causal Effect Estimates （published in Pharmacoepidemiology and Drug Safety）
+
+沈凌洁	临度医疗科技有限公司
+
+Background: Comparing causal effect estimates obtained using observational data to those obtained from the gold standard (i.e., randomized controlled trials [RCTs]) helps assess the validity of these estimates. However, comparisons are challenging due to differences between observational data and RCT generated data. The unknown treatment assignment mechanism in the observational data and varying sampling mechanisms between the RCT and the observational data can lead to confounding and sampling bias, respectively.
+
+Aims: The objective of this study is to propose a two-step framework to validate causal effect estimates obtained from observational data by adjusting for both mechanisms.
+
+Materials and Methods: An estimator of causal effects related to the two mechanisms is constructed. A two-step framework for comparing causal effect estimates is derived from the estimator. An R package RCTrep is developed to implement the framework in practice (https://cran.r-project.org/web/packages/RCTrep/index.html). 
+
+Results: A simulation study is conducted to show that using our framework observational data can produce causal effect estimates similar to those of an RCT. A real-world application of the framework to validate treatment effects of adjuvant chemotherapy obtained from registry data is demonstrated.
+
+Conclusion: This study constructs a framework for comparing causal effect estimates between observational data and RCT data, facilitating the assessment of the validity of causal effect estimates obtained from observational data.
+
+## Designing Clinical Trials in R with rpact and crmPack
+
+Daniel Sabanés Bové	 RCONIS
+
+The focus of this presentation will be on clinical trial designs and their implementation in R. We will present rpact, which is a fully validated, open source, free-of-charge R package for the design and analysis of fixed sample size, group-sequential, and adaptive trials. We will summarize and showcase the functionality of rpact:
+
+Enables the design of confirmatory adaptive group sequential designs
+
+Provides interim data analysis including early efficacy stopping and futility analyses
+
+Enables sample-size reassessment with different strategies
+
+Enables treatment arm selection in multi-stage multi-arm (MAMS) designs
+
+Provides a comprehensive and reliable sample size calculator
+
+
+In addition, we will also briefly present crmPack, which is an open source, free-of-charge R package for the design and analysis of dose escalation trials.
+
+Together, rpact and crmPack enable the implementation of a very wide range of clinical trials
+
+## Automating Clinical Trial Data Analysis with R
+
+刘翔	华领医药
+
+The data generated in clinical trials is becoming increasingly complex and voluminous, necessitating efficient, reproducible, and accurate data analysis methods. The best approach is to develop an automated clinical trial data analysis system. This presentation introduces an R-based automated clinical trial data analysis system currently under development. Here I share some of my experiences and thoughts.
+
+ 
+## Leverage open-source knowledge into statistical validity with validation
+
+Frank Yang	CIMS 
+
+In recent years, R-based approach for clinical trials has rapidly gained attention in the pharmaceutical industry. There are many knowledge resources available, where one can efficiently incorporate those (e.g., {pharmaverse}, {openstatsware} and working groups) into their workflow. The available contribution will include CDISC standard data generation and static and interactive statistical results. Before proceeding on the real practice or automation, one might ask about the validity or reliability of the package, the extent on how we can trust such an approach. In this presentation, we will introduce how to leverage open-sourced R package on internal development with good practice and validated evidence, including preferred package, development cycle, validation method (PHUSE suggested validation framework of {valtools}), and potential usage in pharmaceutical context (e.g., R Shiny, Quarto).
+
+## easeP21: An R tool to ease the Pinnacle 21 review process
+
+Longfei LI/Xing WANG/En WANG/Nana XI	Sanofi		
+
+To address the shortcomings of traditional Pinnacle 21 (P21) reports in terms of precision in issue identification, data integrity, and traceability, we have meticulously crafted an automated tool based on R package and ShinyApp—easeP21. This tool automatically identifies issue types and supplements relevant information based on the P21 reports and associated datasets provided by the user, ultimately generating summary reports (for SDTM and ADAM) and/or data management (DM) reports (only for SDTM) for convenient user access.
+
+easeP21 utilizes P21 validation rules, programming rules, and CDISC IG guidelines to accurately categorize SDTM issues into data issues, programming or metadata issues, and potential false positives. This R tool has reshaped the structure of P21 reports, producing a comprehensive DM report and an all-encompassing summary report for SDTM, while only providing a summary report for ADAM. The DM report focuses on data issues and supplements critical SDTM information, ensuring full traceability of the data. The summary report clearly marks specific issues and links them to validation rules, greatly simplifying the cumbersome process of cross-file review. easeP21 particularly refine the management of split domain issues, precisely delineating them to specific datasets (such as FAAE and FACE), ensuring the continuity and traceability of review conclusions across different versions, thus surpassing the limitations of traditional P21 reports and significantly enhancing the consistency and reliability of the reports.
+
+With its innovative classification technology and the unique data processing capabilities of R, easeP21 has greatly optimized the clinical data review process, offering new insights for clinical trial data management.
