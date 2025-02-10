@@ -2,6 +2,7 @@
 title: "China Pharma RUG meeting program"
 ---
 
+
 | Time        | Topic                                                                                                                                                                                           | Presenter                           | Location          |
 | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
 | 8:30-9:00   | Registration                                                                                                                                                                                    |                                     |                   |
@@ -24,6 +25,8 @@ title: "China Pharma RUG meeting program"
 | 16:00-16:25 | A Two-Step Framework for Validating Causal Effect Estimates （published in Pharmacoepidemiology and Drug Safety）                                                                                 | Lingjie Shen, 临度                    | Online            |
 | 16:25-16:50 | Designing Clinical Trials in R with rpact and crmPack                                                                                                                                           | Daniel Sabanés Bové, RCONIS         | Shanghai          |
 | 16:50-17:00 | Closing Remarks                                                                                                                                                                                 |                                     |                   |
+
+
 
 ## ComparePrism: A package to perform comprehensive data comparison and reporting	
 
