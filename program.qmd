@@ -1,7 +1,30 @@
 ---
 title: "China Pharma RUG meeting program"
 ---
- 
+
+| Time        | Topic                                                                                                                                                                                           | Presenter                           | Location          |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ----------------- |
+| 8:30-9:00   | Registration                                                                                                                                                                                    |                                     |                   |
+| 9: 00-9:10  | Welcome                                                                                                                                                                                         |                                     | Beijing, Shanghai |
+| 9:10-9:15   | Opening Remarks                                                                                                                                                                                 |                                     |                   |
+| 9:15-9:40   | ComparePrism: A package to perform comprehensive data comparison and reporting                                                                                                                  | Bo Ye, Sanofi                       | Beijing, Shanghai |
+| 9:40-10:05  | R package to calculate toxicity grade                                                                                                                                                           | Dan Li, Merck                       | Online            |
+| 10:05-10:35 | Break                                                                                                                                                                                           |                                     |                   |
+| 10:35-11:00 | Developing Context-Aware AI Coding Assistants for Clinical Data Analysis in R                                                                                                                   | Steven Brooks, Boehringer Ingelheim | Shanghai          |
+| 11:00-11:25 | A New Era for R Programming: How AI is Changing the Way We Work                                                                                                                                 | Jiaqi Song, J&J                     | Shanghai          |
+| 11:25-11:50 | Leveraging R and AI: Advancing ADaM Automation for Clinical Data Analysis                                                                                                                       | Shuang Gao, Beigene                 | Beijing           |
+| 12:00-13:00 | Lunch Beak                                                                                                                                                                                      |                                     |                   |
+| 13:00-13:25 | easeP21: An R tool to ease the Pinnacle 21 review process                                                                                                                                       | Longfei Li, Xing Wang, Sanofi       | Beijing           |
+| 13:25-13:50 | Automated Generation of Excel Spreadsheets: Integrating R and VBA for Enhanced Efficiency                                                                                                       | Jundong, Dizal                      | Shanghai          |
+| 13:50-14:15 | Automating Clinical Trial Data Analysis with R                                                                                                                                                  | Xiang Liu, 华领                       | Shanghai          |
+| 14:15-14:40 | Vue and webR Integration for Serverless Local Statistical Analysis in a Single HTML File                                                                                                        | Kaiping Yang, BeiGene               | Online            |
+| 14:40-15:10 | Break                                                                                                                                                                                           |                                     |                   |
+| 15:10-15:35 | Insights from the First Hybrid R/SAS Submission to NMPA by Johnson & Johnson Innovative Medicine + How can we ensure that health authorities reproduce the sponor's R based submission results? | He Liu, Renfa He, Shechang Li, J&J  | Shanghai          |
+| 15:35-16:00 | Leverage open-source knowledge into statistical validity with validation                                                                                                                        | Frank Yang, CIMS Global             | Shanghai          |
+| 16:00-16:25 | A Two-Step Framework for Validating Causal Effect Estimates （published in Pharmacoepidemiology and Drug Safety）                                                                                 | Lingjie Shen, 临度                    | Online            |
+| 16:25-16:50 | Designing Clinical Trials in R with rpact and crmPack                                                                                                                                           | Daniel Sabanés Bové, RCONIS         | Shanghai          |
+| 16:50-17:00 | Closing Remarks                                                                                                                                                                                 |                                     |                   |
+
 ## ComparePrism: A package to perform comprehensive data comparison and reporting	
 
 叶波	Sanofi
