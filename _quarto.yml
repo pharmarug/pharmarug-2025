@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "China Pharma R user group meeting 2025"
+  title: |
+    ![](resources/2025logo.png){fig-alt="Posit" width=50px}
   description: ""
   site-url: https://github.com/pharmarug/pharmarug-2025
   search: true
