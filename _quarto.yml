@@ -23,6 +23,9 @@ website:
         text: Event highlights
         icon: "camera"
   page-footer:
+    left: |
+      Supported by
+      [![](resources/rconsortium.png){fig-alt="Posit" width=120px}](https://www.r-consortium.org/)
     center:
       - text: "PharmaRUG 2023"
         href: https://pharmarug.github.io/pharmarug-2023/
