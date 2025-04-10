@@ -16,9 +16,6 @@ website:
       - href: program.qmd
         text: Program
         icon: "folder"
-      - href: questions.qmd
-        text: Q & A
-        icon: "question-circleg"
       - href: highlights.qmd
         text: Event highlights
         icon: "camera"

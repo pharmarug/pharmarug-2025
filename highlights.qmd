@@ -2,4 +2,24 @@
 title: "Highlights"
 ---
 
-Coming soon
+<img src="resources/pic (1).jpg" width="100%">
+
+<img src="resources/pic (2).jpg" width="100%">
+
+<img src="resources/pic (3).jpg" width="100%">
+
+<img src="resources/pic (4).jpg" width="100%">
+
+<img src="resources/pic (5).jpg" width="100%">
+
+<img src="resources/pic (6).jpg" width="100%">
+
+<img src="resources/pic (7).jpg" width="100%">
+
+<img src="resources/pic (8).jpg" width="100%">
+
+<img src="resources/pic (9).jpg" width="100%">
+
+<img src="resources/pic (10).jpg" width="100%">
+
+<img src="resources/pic (11).jpg" width="100%">
